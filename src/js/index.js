@@ -6,8 +6,9 @@ import ReactDOM from "react-dom/client";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import TrafficLight from "./component/TrafficLight.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+let app = ReactDOM.createRoot(document.getElementById('app'));
+app.render(<TrafficLight />);
 
